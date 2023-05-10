@@ -4,7 +4,7 @@ services:
     repo: https://github.com/Grigalgol/courseWorkWarehouse.git
     branch: deploy
     region: frankfurt
-    plan: frees
+    plan: free
     env: docker
     rootDir: ./backend
     dockerfilePath: ./Dockerfile
